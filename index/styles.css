@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.float-left, .float-center, .float-right {
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.float-left {
+    width: 30%;
+    background-color: #4CAF50; /* Verde */
+}
+
+.float-center {
+    width: 40%;
+    background-color: #000000; /* Azul */
+}
+
+.float-right {
+    width: 30%;
+    background-color: #f44336; /* Vermelho */
+}
+
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
